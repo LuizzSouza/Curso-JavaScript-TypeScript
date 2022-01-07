@@ -46,6 +46,7 @@ const pessoas = [
 const pessoasComNomeGrande = pessoas.filter(obj => obj.nome.length >= 5);
 console.log('Pessoas que tem o nome com 5 letras ou mais: ', pessoasComNomeGrande);
 
+
 const pessoasComMaisDe50Anos = pessoas.filter(obj => obj.idade > 50);
 console.log('Pessoas com mais de 50 anos: ', pessoasComMaisDe50Anos);
 
